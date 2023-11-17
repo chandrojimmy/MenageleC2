@@ -20,7 +20,7 @@ namespace Menagelec1
     public partial class Form3 : Form
     {
 
-        public MySqlConnection connection = new MySqlConnection("Database=menageleccsharp;Server=localhost;UserId=root;Password=");
+        public MySqlConnection connection = new MySqlConnection("Database=menagelecsharp;Server=localhost;User=root;Password=");
 
 
         public Form3()
@@ -71,6 +71,7 @@ namespace Menagelec1
 
         public void Chargedonnes()
         {
+            connection.Open();
             DataTable table = new DataTable();
             // rajoute les colonnes
             table.Columns.Add("idCommande", typeof(int));
