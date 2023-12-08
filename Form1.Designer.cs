@@ -92,6 +92,7 @@ namespace Menagelec1
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(262, 23);
             this.textBox1.TabIndex = 6;
+            this.textBox1.Text = "fournier";
             this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // textBox2
@@ -101,6 +102,7 @@ namespace Menagelec1
             this.textBox2.PasswordChar = '*';
             this.textBox2.Size = new System.Drawing.Size(262, 23);
             this.textBox2.TabIndex = 7;
+            this.textBox2.Text = "1234";
             this.textBox2.UseSystemPasswordChar = true;
             this.textBox2.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
             // 

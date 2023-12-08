@@ -6,7 +6,7 @@ using System.Windows.Forms;
 
 namespace Menagelec1
 {
-    static class Program
+    static class clientmanagers
     {
         /// <summary>
         ///  The main entry point for the application.
